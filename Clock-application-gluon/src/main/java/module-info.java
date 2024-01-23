@@ -4,7 +4,9 @@ module Clock.application.gluon {
 
     // Direct dependencies modules
     requires Clock.application;
+    requires javafx.media;
     requires webfx.kit.openjfx;
+    requires webfx.platform.audio.gluon;
     requires webfx.platform.boot.java;
     requires webfx.platform.console.java;
     requires webfx.platform.os.gluon;

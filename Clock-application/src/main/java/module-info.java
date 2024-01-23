@@ -3,7 +3,11 @@
 module Clock.application {
 
     // Direct dependencies modules
+    requires java.base;
+    requires javafx.base;
     requires javafx.graphics;
+    requires javafx.media;
+    requires webfx.platform.resource;
 
     // Exported packages
     exports com.orangomango.clock;
